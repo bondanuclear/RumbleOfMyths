@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5a859568c0394cae1ca238310c68c, type: 3}
+  m_Name: Progression
+  m_EditorClassIdentifier: 
+  characterClassArray:
+  - characterClassType: 1
+    statArray:
+    - stat: 0
+      levels:
+      - 110
+      - 150
+      - 180
+    - stat: 1
+      levels:
+      - 110
+      - 150
+      - 180
+  - characterClassType: 0
+    statArray:
+    - stat: 0
+      levels:
+      - 130
+      - 160
+    - stat: 1
+      levels:
+      - 130
+      - 160
+  - characterClassType: 2
+    statArray:
+    - stat: 0
+      levels:
+      - 200
+      - 270
+      - 340
+    - stat: 1
+      levels:
+      - 200
+      - 270
+      - 340
+  - characterClassType: 3
+    statArray:
+    - stat: 0
+      levels:
+      - 180
+      - 250
+      - 320
+      - 400
+      - 480
+      - 550
+    - stat: 1
+      levels:
+      - 10
+      - 20
+      - 30
+      - 40
+      - 50
+      - 60
+    - stat: 2
+      levels:
+      - 10
+      - 20
+      - 30
+      - 40
+      - 50
+      - 60
+  - characterClassType: 5
+    statArray:
+    - stat: 0
+      levels:
+      - 110
+      - 150
+      - 190
+      - 240
+      - 290
+    - stat: 1
+      levels:
+      - 10
+      - 20
+      - 30
+      - 40
+      - 50
+  - characterClassType: 4
+    statArray:
+    - stat: 0
+      levels:
+      - 70
+      - 110
+      - 150
+      - 190
+      - 230
+    - stat: 1
+      levels:
+      - 20
+      - 40
+      - 60
+      - 80
+      - 100
